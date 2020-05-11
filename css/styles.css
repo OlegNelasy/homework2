@@ -38,9 +38,13 @@ header {
     /*opacity: 0.4; Непонмаю как сделать
     бекграунд прозрачым незадев содержимое?*/
 }
-.bg-amg{
-
+footer {
+    text-align: center;
+    background: black;
+    padding: 2em;
+    width: 100%;
 }
+
 .headerbaner{
     margin-left: auto;
     margin-right: auto;
@@ -56,4 +60,22 @@ header {
     padding: 1em 2em;
     border: 1px solid #666;
     margin: 0.5em 0;
+}
+
+.footerblok{
+    display: inline-block;
+    color: white;
+    margin: 0 19%;
+}
+
+.blank{
+    text-decoration: none;
+    color: #2690d4;
+}
+
+.blank:visited {
+    color: #2690d4;
+}
+.blank:hover{
+    color: white;
 }
