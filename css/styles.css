@@ -1,15 +1,7 @@
 * {
     box-sizing: border-box;
 }
-a {
-    color: #ffffff; /* Цвет обычной ссылки */
-}
-a:visited {
-    color: #ffffff; /* Цвет посещённой ссылки */
-}
-a:hover {
-    color: #ffffff; /* Цвет ссылки при наведении на нее курсора мыши */
-}
+
 
 body {
     margin: 0;
@@ -60,6 +52,17 @@ footer {
     padding: 1em 2em;
     border: 1px solid #666;
     margin: 0.5em 0;
+}
+
+/*a {*/
+/*    color: #ffffff; !* Цвет обычной ссылки *!*/
+/*}*/
+.headerbottom:visited {
+    color: #ffffff; /* Цвет посещённой ссылки */
+}
+.headerbottom:hover {
+    color: #000000; /* Цвет ссылки при наведении на нее курсора мыши */
+    background: #ffffff;
 }
 
 .footerblok{
