@@ -17,6 +17,9 @@ h1 {
 h2 {
     margin: 0;
 }
+h3{
+    margin: 0;
+}
 
 header {
     min-height: 450px;
@@ -50,6 +53,7 @@ footer {
     padding: 1em 2em;
     border: 1px solid #666;
     margin: 0.5em 0;
+    color: #ffffff;
 }
 
 /*a {*/
@@ -125,4 +129,33 @@ footer {
     display: inline-block;
     background: #333333;
     width: 50%;
+}
+
+#section-b{
+    background: #333333;
+    padding: 2em;
+    width: 100%;
+    text-align: center;
+    color: #333;
+}
+
+.content{
+    background: white;
+    width: 273px;
+    display: inline-block;
+    margin: 0 0.4em;
+}
+
+img{
+    width: 273px;
+    height: 181px;
+    object-fit: cover;
+}
+
+.content-article{
+    margin: 30px;
+}
+
+.content-p{
+    padding: 1em 0;
 }
